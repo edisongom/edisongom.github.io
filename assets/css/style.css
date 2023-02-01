@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+.body {
+    font-family: 'roboto-medium', 'roboto-light', sans-serif;
+}
+.card {
+    width: 278px;
+}
+.text-secondary{
+	font-size: 16px;
+	font-weight: 300;
+}
+.precio_ahora{
+    font-size: 20px;
+    font-weight: 600;
+    color: #198754;
+}
+.card-title{
+    font-size: 20px;
+	font-weight: 300;
+}
+header{
+    color: cornflowerblue !important;
+}
