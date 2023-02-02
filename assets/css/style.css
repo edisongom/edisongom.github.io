@@ -2,20 +2,6 @@
 body h2{
     font-size: 44px;
 }
-/* body {
-  content: "";
-  background: url(../img/back6.jpg);
-  background-repeat:no-repeat;
-  background-size: cover;
-  background-position: center;
-
-} */
-/* .profile_photo {
-    width: 220px;
-} */
-/* .logo-navbar{
-    width: 280px;
-} */
 
 header {
     position: relative;
@@ -79,4 +65,12 @@ footer p{
 
 .trabajos img{
     height: 250px;
+}
+
+.Acerca h3{
+    font-size: 32px;
+}
+.Acerca p{
+    font-size: 18px;
+    font-style: italic;
 }
