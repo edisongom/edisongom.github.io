@@ -1,23 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
-.body {
-    font-family: 'roboto-medium', 'roboto-light', sans-serif;
+
+body::after {
+  content: "";
+  background: url(../img/back6.gif);
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
 }
-.card {
-    width: 278px;
+/* .profile_photo {
+    width: 220px;
+} */
+/* .logo-navbar{
+    width: 280px;
+} */
+
+header {
+    position: relative;
+    height: 40vh;
+    min-height: 2rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  header video {
+    position: absolute;
+    top:100%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+
+  header .overlay {
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.9;
+    color: #ffff;
+    /* background-color: hsl(50 33% 25% / 0.1); */
 }
-.text-secondary{
-	font-size: 16px;
-	font-weight: 300;
+h1{
+    font-size: 60px;
 }
-.precio_ahora{
-    font-size: 20px;
-    font-weight: 600;
-    color: #198754;
+header h5{
+    font-size: 35px;
 }
-.card-title{
-    font-size: 20px;
-	font-weight: 300;
-}
-header{
-    color: cornflowerblue !important;
+header p{
+    font-size: 24px;
 }

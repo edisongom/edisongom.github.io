@@ -16,13 +16,52 @@
 </head>
 
 <body id="top">
-	<header class="bg-creado bg-gradient text-black py-5">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-3 text-left text-md-center mb-3">
-					<img class="rounded-circle img-fluid" src="assets/img/" alt="Profile Photo" />
-				</div>
-				<div class="col-md-9">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+		<div class="container-fluid">
+		  <!-- <img
+			class="logo-navbar"
+			src="./assets/img/logo.png"
+			alt="Logo Sagan"
+		  /> -->
+		  <button
+			class="navbar-toggler"
+			type="button"
+			data-bs-toggle="collapse"
+			data-bs-target="#navbarNav"
+			aria-controls="navbarNav"
+			aria-expanded="false"
+			aria-label="Toggle navigation"		  >
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav ms-auto">
+			  <li class="nav-item">
+				<a class="nav-link active" aria-current="page" href="#">Inicio</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#About">Acerca de Edison</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#Challange">Desafíos </a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#Contact">Contacto</a>
+			  </li>
+			</ul>
+		  </div>
+		</div>
+	  </nav>
+	<header class="bg-creado bg-gradient text-black py-5 top-header " >
+
+		<div class="container ">
+			<video autoplay muted loop>
+				<source src="assets/img/video3.mp4" type="video/mp4">
+			</video>
+			<!-- <div class="row overlay">
+				<!-- <div class="col-md-3 text-left text-md-center mb-3">
+					<img class="img-fluid profile_photo" src="assets/img/header.jpg" alt="Profile Photo" />
+				</div> --> -->
+				<div class="col-md-9 overlay">
 					<h1>Edison Gómez</h1>
 					<h5>Ingeniero Estadístico</h5>
 					<p class="border-top pt-3">Me considero una persona responsable, me desenvuelvo bien trabajando en
@@ -35,23 +74,27 @@
 			</div>
 		</div>
 	</header>
-	<nav class="bg-dark text-white-50 mb-5">
+	<nav class="bg-dark text-white-50 mb-5 ">
 		<div class="container">
 			<div class="row p-3">
-				<div class="col-md pb-2 pb-md-0">
+				<div class="col-md pb-2 pb-md-0 contacto">
 					<a href="#" class="text-white ml-2 bi bi-envelope"> edison.gomez.am@gmail.com</a>
 				</div>
-				<div class="col-md text-md-center pb-2 pb-md-0">
-					<a href="#" class="text-white ml-2 bi bi-github"> github.com/edisongom</a>
+				<div class="col-md text-md-center pb-2 pb-md-0 contacto">
+					<a href="#" class="text-white ml-2 bi bi-github"> edisongom</a>
 				</div>
-				<div class="col-md text-md-right">
-					<a href="#" class="text-white ml-2 bi bi-linkedin"> linkedin.com/in/edison-gomez-mancilla/</a>
+				<div class="col-md text-md-center contacto ">
+					<a href="#" class="text-white ml-2 bi bi-linkedin"> edison-gomez-mancilla</a>
+				</div>
+				<div class="col-md text-md-right contacto">
+					<a href="#" class="text-white ml-2 bi bi-whatsapp"> +56 9 6395 1422</a>
 				</div>
 			</div>
 		</div>
 	</nav>
 	<hr/>
-	<section class="container text-center" id="experiencia">
+
+	<section class="container text-center " id="experiencia">
 		<h2 class="py-5">Mi experiencia</h2>
 		<div class="row">
 			<div class="col-md-6">
@@ -87,9 +130,9 @@
 		</div>
 	</section>
 	<hr/>
-	<section class="bg-purple my-3 py-3" id="trabajos">
+	<section class="bg-purple my-3 py-3 trabajos" id="trabajos">
 		<div class="container py-3">
-			<h2 class="text-center text-black pb-3">Mis últimos trabajos</h2>
+			<h2 class="text-center text-black pb-3 ">Mis últimos trabajos</h2>
 
 			<div class="row">
 				<div class="col-md-3 my-3">
@@ -176,7 +219,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 footer-logo">
-					<img src="assets/img/logo_carrera.png" alt="logo" height="50px">
+					<img src="assets/img/logo.png" alt="logo" height="50px">
 				</div>
 				<div class="col-md-6 text-right footer-icons">
 					<a href="https://github.com/edisongom" _blank"><i class="fab fa-github-square fa-3x"></i></a>
