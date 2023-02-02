@@ -41,7 +41,7 @@
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
-  --bs-creado-rgb: 179,205,224;
+  --bs-creado-rgb: 19,92,137;
   --bs-warning-rgb: 255, 193, 7;
   --bs-danger-rgb: 220, 53, 69;
   --bs-light-rgb: 248, 249, 250;
@@ -6888,7 +6888,7 @@ textarea.form-control-lg {
 
 .text-bg-creado {
   color: #000 !important;
-  background-color: RGBA(179,205,224, var(--bs-bg-opacity, 1)) !important;
+  background-color: RGBA(19,92,137, var(--bs-bg-opacity, 1)) !important;
 }
 .text-bg-warning {
   color: #000 !important;
