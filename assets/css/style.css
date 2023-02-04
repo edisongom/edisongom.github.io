@@ -42,11 +42,11 @@ h1 {
 }
 
 header h5 {
-    font-size: 30px;
+    font-size : clamp(1.25rem, 5vw, 2rem);
 }
 
 header p {
-    font-size : clamp(1rem, 4vw, 1.5rem);
+    font-size : clamp(0.75rem, 4vw, 1.5rem);
 }
 
 nav {
@@ -83,4 +83,8 @@ footer p {
 .Acerca p {
     font-size: 18px;
     font-style: italic;
+}
+.Acerca img{
+    max-width: 100%;
+    height: auto;
 }
