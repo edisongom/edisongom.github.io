@@ -6,8 +6,8 @@ body h2 {
 
 header {
     position: relative;
-    height: 47vh;
-    min-height: 2rem;
+    height: 58vh;
+    min-height: 20rem;
     width: 100%;
     overflow: hidden;
 }
@@ -34,7 +34,6 @@ header .overlay {
     width: 100%;
     opacity: 0.9;
     color: #ffff;
-    /* background-color: hsl(50 33% 25% / 0.1); */
 }
 
 h1 {
