@@ -37,7 +37,7 @@ header .overlay {
     /* background-color: hsl(50 33% 25% / 0.1); */
 }
 
-h1 {
+/* h1 {
     font-size : clamp(2rem, 5vw, 5rem);
 }
 
@@ -46,11 +46,11 @@ header h5 {
 }
 
 header p {
-    font-size : clamp(0.75rem, 4vw, 1.5rem);
-}
+    font-size : clamp(0.75rem, 2.2vw, 1.5rem);
+} */
 
 nav {
-    font-size : clamp(1rem, 4vw, 1.25rem);
+    font-size : clamp(1rem, 4vw, 1.2rem);
 }
 
 footer {
