@@ -6,7 +6,7 @@ body h2 {
 
 header {
     position: relative;
-    height: 40vh;
+    height: 50vh;
     min-height: 2rem;
     width: 100%;
     overflow: hidden;
@@ -42,7 +42,7 @@ font-size: calc(0.9em + 0.95vw)}
 header h5 {
 font-size: calc(0.8em + 0.9vw)}
 
-header p {    font-size: calc(0.5em + 0.9vw)
+header p {    font-size: calc(0.1em + 1vh + 1vw)
 
     /* font-size : clamp(0.75rem, 2.2vw, 1.5rem); */
 } 
