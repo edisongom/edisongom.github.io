@@ -6,8 +6,8 @@ body h2 {
 
 header {
     position: relative;
-    height: 58vh;
-    min-height: 20rem;
+    height: 40vh;
+    min-height: 2rem;
     width: 100%;
     overflow: hidden;
 }
