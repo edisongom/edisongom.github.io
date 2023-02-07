@@ -37,15 +37,13 @@ header .overlay {
     /* background-color: hsl(50 33% 25% / 0.1); */
 }
 
-/* h1 {
-    font-size : clamp(2rem, 5vw, 5rem);
-}
+h1 {
+font-size: calc(1em + 0.95vw)}
 
 header h5 {
-    font-size : clamp(1.25rem, 5vw, 2rem);
-} */
+font-size: calc(0.9em + 0.9vw)}
 
-header p {    font-size: calc(0.8em + 0.9vw)
+header p {    font-size: calc(0.8em + 0.85vw)
 
     /* font-size : clamp(0.75rem, 2.2vw, 1.5rem); */
 } 
