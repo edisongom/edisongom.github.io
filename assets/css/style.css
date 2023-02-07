@@ -38,12 +38,12 @@ header .overlay {
 }
 
 h1 {
-font-size: calc(1em + 0.95vw)}
+font-size: calc(0.9em + 0.95vw)}
 
 header h5 {
-font-size: calc(0.9em + 0.9vw)}
+font-size: calc(0.8em + 0.9vw)}
 
-header p {    font-size: calc(0.8em + 0.85vw)
+header p {    font-size: calc(0.5em + 0.9vw)
 
     /* font-size : clamp(0.75rem, 2.2vw, 1.5rem); */
 } 
